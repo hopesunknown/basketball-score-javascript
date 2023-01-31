@@ -1,8 +1,23 @@
 body {
+  background-color: rgb(47, 46, 46);
   margin: 0;
 }
 
 .container {
+  color: white;
   display: flex;
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bolder(100);
   justify-content: space-around;
+}
+
+.score {
+  background-color: black;
+  color: red;
+}
+
+.add-buttons {
+  background-color: black;
+  color: white;
 }
