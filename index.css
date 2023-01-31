@@ -4,8 +4,13 @@ body {
 }
 
 button {
-  background-color: black;
-  color: white;
+  background-color: rgb(47, 46, 46);
+  border-radius: 5px;
+  border-color: grey;
+  color: grey;
+  display: inline-block;
+  font-size: 30px;
+  justify-content: space-around;
 }
 
 .container {
@@ -19,7 +24,10 @@ button {
 
 .score {
   background-color: black;
+  border-radius: 15px;
   color: red;
   display: flex;
   font-size: 80px;
+  font-weight: bolder;
+  justify-content: space-around;
 }
