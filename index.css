@@ -22,7 +22,7 @@ button {
   justify-content: space-around;
 }
 
-.score {
+#score1, #score2 {
   background-color: black;
   border-radius: 15px;
   color: red;
