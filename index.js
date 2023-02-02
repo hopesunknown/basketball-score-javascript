@@ -6,32 +6,39 @@ document.getElementById('score2').textContent = num2
 let firstScore = document.getElementById('score1')
 let secondScore = document.getElementById('score2')
 
-function addOneFirst() {
+function addOneFirst(){
   num1 = num1 + 1
   firstScore.textContent = num1
 }
 
-function addTwoFirst() {
+function addTwoFirst(){
   num1 = num1 + 2
   firstScore.textContent = num1
 }
 
-function addThreeFirst() {
+function addThreeFirst(){
   num1 = num1 + 3
   firstScore.textContent = num1
 }
 
-function addOneSecond() {
+function addOneSecond(){
   num2 = num2 + 1
   secondScore.textContent = num2
 }
 
-function addTwoSecond() {
+function addTwoSecond(){
   num2 = num2 + 2
   secondScore.textContent = num2
 }
 
-function addThreeSecond() {
+function addThreeSecond(){
   num2 = num2 + 3
+  secondScore.textContent = num2
+}
+
+function newGame(){
+  num1 = 0
+  num2 = 0
+  firstScore.textContent = num1
   secondScore.textContent = num2
 }
